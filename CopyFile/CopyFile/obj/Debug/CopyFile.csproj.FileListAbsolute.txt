@@ -1,0 +1,6 @@
+C:\Users\Ali\Documents\GitHub\COMP-374\CopyFile\CopyFile\bin\Debug\CopyFile.exe.config
+C:\Users\Ali\Documents\GitHub\COMP-374\CopyFile\CopyFile\bin\Debug\CopyFile.exe
+C:\Users\Ali\Documents\GitHub\COMP-374\CopyFile\CopyFile\bin\Debug\CopyFile.pdb
+C:\Users\Ali\Documents\GitHub\COMP-374\CopyFile\CopyFile\obj\Debug\CopyFile.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Documents\GitHub\COMP-374\CopyFile\CopyFile\obj\Debug\CopyFile.exe
+C:\Users\Ali\Documents\GitHub\COMP-374\CopyFile\CopyFile\obj\Debug\CopyFile.pdb
