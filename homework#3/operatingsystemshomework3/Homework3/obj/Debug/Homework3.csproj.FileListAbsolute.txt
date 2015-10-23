@@ -1,0 +1,6 @@
+C:\Users\Ali\Documents\GitHub\COMP-374\homework#3\operatingsystemshomework3\Homework3\bin\Debug\Homework3.exe.config
+C:\Users\Ali\Documents\GitHub\COMP-374\homework#3\operatingsystemshomework3\Homework3\bin\Debug\Homework3.exe
+C:\Users\Ali\Documents\GitHub\COMP-374\homework#3\operatingsystemshomework3\Homework3\bin\Debug\Homework3.pdb
+C:\Users\Ali\Documents\GitHub\COMP-374\homework#3\operatingsystemshomework3\Homework3\obj\Debug\Homework3.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Documents\GitHub\COMP-374\homework#3\operatingsystemshomework3\Homework3\obj\Debug\Homework3.exe
+C:\Users\Ali\Documents\GitHub\COMP-374\homework#3\operatingsystemshomework3\Homework3\obj\Debug\Homework3.pdb
