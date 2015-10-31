@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Homework3 {
     internal class IsNumberPrimeCalculator {
         private readonly ICollection<long> _primeNumbers;
         private readonly Queue<long> _numbersToCheck;
+        static object _lock = new object();
 
         public IsNumberPrimeCalculator(ICollection<long> primeNumbers, Queue<long> numbersToCheck) {
             _primeNumbers = primeNumbers;
@@ -13,10 +15,16 @@ namespace Homework3 {
 
         public void CheckIfNumbersArePrime() {
             while (true) {
+                Monitor.Enter(_lock);
+
                 var numberToCheck = _numbersToCheck.Dequeue();
-                if (IsNumberPrime(numberToCheck)) {
+
+                if (IsNumberPrime(numberToCheck))
+                {
                     _primeNumbers.Add(numberToCheck);
+                    Monitor.Pulse(_lock);
                 }
+                Monitor.Exit(_lock);
             }
         }
 
